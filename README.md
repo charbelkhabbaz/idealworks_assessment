@@ -50,11 +50,11 @@ Analyze patterns in robot error occurrences to identify predictive relationships
 1. Download the repository
 2. Ensure Docker is installed and properly set up.
 3. Build the Docker Image using: docker build -t robot_analysis .
-4. Run the Docker container and start Jupyter Notebook: docker run -it --rm -p 8888:8888 -v "$(pwd)":/app robot_analysis
+4. Run the Docker container and start Jupyter Notebook:  docker run -it --rm -p 8888:8888 -v "$(pwd)":/app robot_analysis
 5. Open the URL printed in the terminal (e.g., http://127.0.0.1:8888/?token=...) in your browser to access the notebooks.
 
 # b- Without Docker (Method 2) – Running Locally
-1. If Docker is not available, install dependencies manually: pip install -r requirements.txt
-2. Start Jupyter Notebook:jupyter notebook
+1. If Docker is not available, install dependencies manually:  pip install -r requirements.txt
+2. Start Jupyter Notebook: jupyter notebook
 
 # Notes: Ensure all Parquet files are placed inside robots_data/ folder.

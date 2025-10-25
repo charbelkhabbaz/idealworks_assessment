@@ -47,7 +47,7 @@ Analyze patterns in robot error occurrences to identify predictive relationships
 
 ## How to run the Code? 
 # a- Using Docker (Method 1)
-1. Download the repository
+1. Download the repository and create a folder named robots_data. Place all the .parquet files inside this folder. Make sure the folder is located in the same directory as the notebook.ipynb file . 
 2. Ensure Docker is installed and properly set up.
 3. Build the Docker Image using: docker build -t robot_analysis .
 4. Run the Docker container and start Jupyter Notebook:  docker run -it --rm -p 8888:8888 -v "$(pwd)":/app robot_analysis

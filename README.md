@@ -57,4 +57,4 @@ Analyze patterns in robot error occurrences to identify predictive relationships
 1. If Docker is not available, install dependencies manually:  pip install -r requirements.txt
 2. Start Jupyter Notebook: jupyter notebook
 
-# Notes: Ensure all Parquet files are placed inside robots_data/ folder.
+# Note: Ensure all Parquet files are placed inside robots_data/ folder.

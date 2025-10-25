@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+networkx
+pyspark
+plotly
+jupyter
+scipy
+pyarrow
